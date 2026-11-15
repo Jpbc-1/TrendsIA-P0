@@ -1,0 +1,15 @@
+# Ambientes virtuais e dependências
+venv/
+env/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Configurações locais e segredos
+.env
+*.log
+.DS_Store
+
+# Dados sensíveis ou temporários
+data/*.csv
+!data/.gitkeep
