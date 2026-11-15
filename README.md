@@ -42,8 +42,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 ## 5.4. Configurar as credenciais
-```bash
 Crie um arquivo .env na raiz do projeto baseando-se no .env.example:
+```bash
 GEMINI_API_KEY=sua_chave_real_aqui
 GEMINI_MODEL=gemini-2.5-flash-lite
 ```
@@ -54,13 +54,11 @@ python main.py
 ```
 
 # 7. Executando os Testes
-```bash
 Para rodar os testes unitários locais (sem consumir a API):
+```bash
 pytest
 ```
 
 # 8. Limitações Conhecidas
-```bash
 - Depende de conexão ativa com a internet e da disponibilidade da API do Gemini.
 - Textos excessivamente longos podem atingir os limites de tokens da janela de contexto da versão escolhida.
-```
